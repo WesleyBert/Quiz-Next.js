@@ -13,7 +13,7 @@ import RespostaModel from "@/model/resposta";
         RespostaModel.errada("Uma borboleta"),
         RespostaModel.errada("Um cavalo"),
         RespostaModel.certo("Um cisne"),
-        RespostaModel.errada("Um leão"),
+        RespostaModel.errada("Um leão" ),
     ],false),
     new QuestaoModel(1,"Quantas pessoas foram removidas do mural da família Black?",[
 

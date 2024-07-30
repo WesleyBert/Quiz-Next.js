@@ -32,7 +32,7 @@ export default class QuestaoModel{
     }
 
     get respondida(){
-        for(let resposta of this.#respostas){
+        for(let resposta of this.#respostas){ 
             if(resposta.revelada) return true
         }
         return false 

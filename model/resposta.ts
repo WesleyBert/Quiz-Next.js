@@ -14,7 +14,7 @@ export default class RespostaModel {
     }
 
     static errada(valor: string){
-        return new RespostaModel('errada',true)
+        return new RespostaModel('errada',true )
     }
     get valor(){
         return this.#valor
